@@ -1,7 +1,5 @@
 import React from "react";
 import "./index.css";
-import RandomIcon from "./randomicon.png";
-import SearchIcon from "./searchicon.png";
 
 class Search extends React.Component {
   render() {
@@ -9,18 +7,54 @@ class Search extends React.Component {
       <div className="search">
         <form onSubmit={this.props.searchValue}>
           <input type="text" id="inputValue"></input>
-          <img
-            onClick={this.props.search}
-            src={SearchIcon}
-            alt="randomizer icon, curved arrows"
-          />
-          <img
-            id="randomizer"
-            onClick={this.props.random}
-            src={RandomIcon}
-            alt="randomizer icon, curved arrows"
-          />
         </form>
+        <div className="button one">
+          <svg
+            onClick={this.props.search}
+            id="Layer_2"
+            data-name="Layer 2"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 2945.91 3042.38"
+          >
+            <circle
+              cx="2039.07"
+              cy="1990.83"
+              r="949.52"
+              transform="translate(-1775.05 1108.63) rotate(-45)"
+              fill="none"
+              stroke="#000"
+              strokeMiterlimit="10"
+              strokeWidth="250"
+            />
+            <path
+              d="M3840.68,3872.34,3812.27,3899c-89,83.4-228.68,78.9-312.08-10.06l-910.11-970.72c-83.41-89-78.9-228.69,10.05-312.09l28.41-26.63c88.95-83.4,228.68-78.9,312.08,10.06l910.11,970.72C3934.14,3649.21,3929.63,3788.93,3840.68,3872.34Z"
+              transform="translate(-964.55 -916.31)"
+            />
+          </svg>
+        </div>
+        <div className="button two">
+          <svg
+            onClick={this.props.random}
+            id="Layer_1"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 334 227.37"
+          >
+            <path
+              d="M417,178.13l-80.56-41.82c-.15,2.26,0,4.52,0,6.77v14.14c-1.5.09-2.56.19-3.63.22-31.13.62-57.4,9.46-79.3,25.79-15.57,11.61-27.53,25.18-38.4,39.31-9.88,12.83-19.37,25.83-29.35,38.62C178,271,169.45,280.43,158.5,288.52c-12.7,9.38-27.89,14.1-45.83,14-9.89-.06-19.78,0-29.67,0v41.43c9.92,0,19.85,0,29.78,0,27.38,0,52.09-5.81,73.61-18.62,13.59-8.09,25.16-17.65,34.28-28.58,12.39-14.85,23.63-30.24,35.73-45.24,8.72-10.81,17.63-21.58,27.26-31.95a64,64,0,0,1,27.25-17.09,68.86,68.86,0,0,1,25.46-3.39c0,6.66.06,13.14,0,19.62Z"
+              transform="translate(-83 -136.31)"
+            />
+            <path
+              d="M417,323.35l-80.6-40.74c0,5.6,0,11.2,0,16.8v3.06c-1.66,0-2.86,0-4.05,0-15.74-.4-28.76-5.23-39.76-13.41-10-7.47-17.74-16.22-25.14-25.14-.67-.8-1.38-1.59-2.23-2.57-.53.55-.83.81-1.06,1.1-9.71,12.38-19.46,24.76-29,37.19a2.38,2.38,0,0,0,.5,2.72c5.27,4.83,10.41,9.78,16.2,14.26,18.07,14,39.7,23.3,65.78,26.25,6.08.68,12.26.89,18.64,1.34.07.93.17,1.81.17,2.69,0,5.59.05,11.19,0,16.79Z"
+              transform="translate(-83 -136.31)"
+            />
+            <path
+              d="M198.62,184.27c-21-16-46.33-25.41-76.61-26.52-13-.48-26-.34-39-.36v41.53c9.94,0,19.89.07,29.83,0,17.71-.17,32.61,4.6,45.21,13.72,10.08,7.31,17.91,15.87,25.34,24.67.74.87,1.5,1.73,2.3,2.64l31.24-40.16C211.1,194.81,205.21,189.29,198.62,184.27Z"
+              transform="translate(-83 -136.31)"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
       </div>
     );
   }

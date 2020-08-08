@@ -96,20 +96,23 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div className="header">
+          <h1>Wordbook</h1>
+        </div>
         <div className="app-container">
           <div className="header-elements">
-            <h1>Wordbook</h1>
+            <h1>Learn a word or two.</h1>
             <p>
-              Search for the definition of a word, or hit the randomzier to
-              learn some new ones.
+              Search for the definition of a word, or hit shuffle to learn some
+              new ones.
             </p>
+            <Search
+              className="main-1"
+              searchValue={this.searcher}
+              random={this.randomizer}
+              search={this.searcher}
+            />
           </div>
-          <Search
-            className="main-1"
-            searchValue={this.searcher}
-            random={this.randomizer}
-            search={this.searcher}
-          />
           <Results
             className="main-2"
             word={this.state.words}

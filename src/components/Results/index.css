@@ -2,10 +2,12 @@
   display: grid;
   grid-template-columns: 1fr;
   background-color: #f9f9f9;
-  margin: auto;
-  width: 500px;
-  padding: 30px;
-  box-shadow: 1px 2px 4px gray;
+  margin: 0 auto;
+  width: 600px;
+  padding: 2em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
 }
 
 .container h1 {
@@ -13,18 +15,27 @@
 }
 
 .container li {
-  padding: 0px;
+  padding: 0;
   list-style: none;
-  border-bottom: 1px dashed orange;
+  border-bottom: 1px dashed #ffa751;
   text-align: left;
 }
 
-.container ul {
-  padding: 0px;
+.container li img {
+  padding-bottom: 15px;
 }
 
-@media screen and (max-width: 599px) {
+.container ul {
+  padding: 0;
+}
+
+.container h1,
+h4 {
+  font-family: "Dosis", sans-serif;
+}
+
+@media screen and (max-width: 700px) {
   .container {
-    width: 300px;
+    width: 400px;
   }
 }
