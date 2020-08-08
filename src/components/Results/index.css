@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #f9f9f9;
+  margin: auto;
+  width: 500px;
+  padding: 30px;
+  box-shadow: 1px 2px 4px gray;
+}
+
+.container h1 {
+  border-bottom: 2px solid black;
+}
+
+.container li {
+  padding: 0px;
+  list-style: none;
+  border-bottom: 1px dashed orange;
+  text-align: left;
+}
+
+.container ul {
+  padding: 0px;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    width: 300px;
+  }
+}
