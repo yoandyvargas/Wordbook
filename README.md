@@ -1,11 +1,5 @@
 # Wordbook - React JS Dictionary App
 
----
-
-# How to use
-
----
-
 Search for the definition of a word or hit the shuffle button for a random word.
 
 ---
