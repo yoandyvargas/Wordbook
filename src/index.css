@@ -36,6 +36,7 @@ font-family: 'Josefin Sans', sans-serif;
   grid-template-columns: auto;
   margin: 0 auto;
   max-width: 600px;
+  padding-bottom: 5em;
 }
 
 .app-container p {
@@ -74,6 +75,25 @@ font-family: 'Josefin Sans', sans-serif;
   font-size: 0.5em;
   color: black;
   max-width: 100%;
+}
+
+footer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffe259;
 }
 
 @media screen and (max-width: 599px) {

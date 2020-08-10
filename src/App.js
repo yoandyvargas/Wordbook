@@ -133,6 +133,12 @@ class App extends React.Component {
             define={this.state.define}
           />
         </div>
+        <footer>
+          <p>
+            Made by Yoandy Vargas with OwlBot Dictionary API, learn more at{" "}
+            <a href="https://owlbot.info">https://owlbot.info</a>.{" "}
+          </p>
+        </footer>
       </div>
     );
   }
