@@ -18,6 +18,17 @@
     0 16px 16px rgba(0, 0, 0, 0.12);
 }
 
+.search svg:hover {
+  background-color: black;
+  fill: white;
+  stroke: white;
+  transition: all 0.25s;
+}
+
+.one circle:hover {
+  stroke: white;
+}
+
 .search form {
   grid-area: search;
 }

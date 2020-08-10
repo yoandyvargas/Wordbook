@@ -61,9 +61,10 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 .header-elements h1 {
+  padding-top: 20px;
   font-family: "Francois One", sans-serif;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .header-elements p {
