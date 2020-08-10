@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Wordbook",
+  "short_name": "Wordbook",
+  "name": "Wordbook - Dictionary",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

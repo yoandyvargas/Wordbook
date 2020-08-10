@@ -61,38 +61,50 @@ class App extends React.Component {
   //Search function
   searcher = (event) => {
     event.preventDefault();
-    //Get input from input text and remove symbols from any string inputs
-    let input = document
-      .getElementById("inputValue")
-      .value.replace(/[^a-zA-Z ]/g, "");
 
-    client
-      .define(`${input}`)
-      .then((res) => {
-        return res;
-      })
-      .then(
-        (results) => {
-          this.setState({
-            words: results.word,
-            pronunciation: results.pronunciation,
-            define: results.definitions,
-            hasError: "",
-          });
-        },
-        (error) => {
-          if (error) {
+    let validateInput = document.getElementById("inputValue");
+
+    if (validateInput.value === "") {
+      this.setState({
+        hasError:
+          "Text field is blank. Please type a word to define or hit the random word button.",
+        words: "",
+        pronunciation: "",
+        define: [],
+      });
+    } else {
+      //Get input from input text and remove symbols from any string inputs
+      let input = document
+        .getElementById("inputValue")
+        .value.replace(/[^a-zA-Z ]/g, "");
+
+      client
+        .define(`${input}`)
+        .then((res) => {
+          return res;
+        })
+        .then(
+          (results) => {
             this.setState({
-              hasError: "Word could not be found, try another.",
-              words: "",
-              pronunciation: "",
-              define: [],
+              words: results.word,
+              pronunciation: results.pronunciation,
+              define: results.definitions,
+              hasError: "",
             });
+          },
+          (error) => {
+            if (error) {
+              this.setState({
+                hasError: "Word could not be found, try another.",
+                words: "",
+                pronunciation: "",
+                define: [],
+              });
+            }
           }
-        }
-      );
+        );
+    }
   };
-
   render() {
     return (
       <div className="App">
