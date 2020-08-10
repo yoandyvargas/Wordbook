@@ -5,12 +5,12 @@ class Results extends React.Component {
   render() {
     return (
       <div className="container">
-        <div>
+        <div className="inner-container">
           <h1>{this.props.word}</h1>
           <p>{this.props.error}</p>
+          <h4>{this.props.pronunciation}</h4>
         </div>
-        <h4>{this.props.pronunciation}</h4>
-        <div>
+        <div className="inner-container">
           <ul>
             {this.props.define.map((item, index) => (
               <li key={index}>
