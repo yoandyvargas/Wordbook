@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Wordbook/static/css/main.7ed29de7.chunk.css",
+    "main.css": "/Wordbook/static/css/main.2ca65cf5.chunk.css",
     "main.js": "/Wordbook/static/js/main.75dc2d84.chunk.js",
     "main.js.map": "/Wordbook/static/js/main.75dc2d84.chunk.js.map",
     "runtime-main.js": "/Wordbook/static/js/runtime-main.74beac5d.js",
@@ -8,15 +8,15 @@
     "static/js/2.b21ca04b.chunk.js": "/Wordbook/static/js/2.b21ca04b.chunk.js",
     "static/js/2.b21ca04b.chunk.js.map": "/Wordbook/static/js/2.b21ca04b.chunk.js.map",
     "index.html": "/Wordbook/index.html",
-    "precache-manifest.0144b0617b40295e7ffe85e6817d42bb.js": "/Wordbook/precache-manifest.0144b0617b40295e7ffe85e6817d42bb.js",
+    "precache-manifest.0d1f9747abbe41be609d5457da243064.js": "/Wordbook/precache-manifest.0d1f9747abbe41be609d5457da243064.js",
     "service-worker.js": "/Wordbook/service-worker.js",
-    "static/css/main.7ed29de7.chunk.css.map": "/Wordbook/static/css/main.7ed29de7.chunk.css.map",
+    "static/css/main.2ca65cf5.chunk.css.map": "/Wordbook/static/css/main.2ca65cf5.chunk.css.map",
     "static/js/2.b21ca04b.chunk.js.LICENSE.txt": "/Wordbook/static/js/2.b21ca04b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.74beac5d.js",
     "static/js/2.b21ca04b.chunk.js",
-    "static/css/main.7ed29de7.chunk.css",
+    "static/css/main.2ca65cf5.chunk.css",
     "static/js/main.75dc2d84.chunk.js"
   ]
 }
