@@ -8,33 +8,25 @@ class Search extends React.Component {
         <form onSubmit={this.props.searchValue}>
           <input type="text" id="inputValue"></input>
         </form>
-        <div className="button one">
+        <div className="button one" onClick={this.props.search}>
           <svg
-            onClick={this.props.search}
-            id="Layer_2"
-            data-name="Layer 2"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 2945.91 3042.38"
           >
-            <circle
-              cx="2039.07"
-              cy="1990.83"
-              r="949.52"
-              transform="translate(-1775.05 1108.63) rotate(-45)"
-              fill="none"
-              stroke="#000"
-              strokeMiterlimit="10"
-              strokeWidth="250"
-            />
             <path
-              d="M3840.68,3872.34,3812.27,3899c-89,83.4-228.68,78.9-312.08-10.06l-910.11-970.72c-83.41-89-78.9-228.69,10.05-312.09l28.41-26.63c88.95-83.4,228.68-78.9,312.08,10.06l910.11,970.72C3934.14,3649.21,3929.63,3788.93,3840.68,3872.34Z"
-              transform="translate(-964.55 -916.31)"
-            />
+              d="M17 17L22 22M19.5 10.75C19.5 15.5825 15.5825 19.5 10.75 19.5C5.91751 19.5 2 15.5825 2 10.75C2 5.91751 5.91751 2 10.75 2C15.5825 2 19.5 5.91751 19.5 10.75Z"
+              stroke="#000"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            ></path>
           </svg>
         </div>
-        <div className="button two">
+        <div className="button two" onClick={this.props.random}>
           <svg
-            onClick={this.props.random}
             id="Layer_1"
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
