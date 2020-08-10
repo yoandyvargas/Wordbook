@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aae7745b562217b46a0a285770598805",
+    "revision": "715cf711537a50467090bbe0c6fb8e23",
     "url": "/Wordbook/index.html"
   },
   {
-    "revision": "9764e0cce647fbbb24cf",
-    "url": "/Wordbook/static/css/main.0a82fc5a.chunk.css"
+    "revision": "23b36e0cb13139b2a17c",
+    "url": "/Wordbook/static/css/main.7ed29de7.chunk.css"
   },
   {
     "revision": "523a812eb9f1d6e6f19d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wordbook/static/js/2.b21ca04b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9764e0cce647fbbb24cf",
+    "revision": "23b36e0cb13139b2a17c",
     "url": "/Wordbook/static/js/main.75dc2d84.chunk.js"
   },
   {
