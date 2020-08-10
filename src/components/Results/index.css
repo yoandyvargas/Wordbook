@@ -13,6 +13,12 @@
   padding: 0em 2em;
 }
 
+@media screen and (max-width: 599px) {
+  .inner-container img {
+    max-width: 50%;
+  }
+}
+
 .container h1 {
   border-bottom: 2px solid black;
 }
